@@ -276,11 +276,22 @@ const Pilot = () => {
             <h3>Co w przypadku gdy nie uda nam się połączyć?</h3>
           </div>
           <div className="task__description-more">
+            <h4 style={{ color: "#0078d7" }}>SOK/LOGISTYKA</h4>
             <ol>
               <li>SOK/Logistyka - max. Dwie próby połączenia</li>
               <li>
                 KD - Gdy nie uda nam się połączyć pod SOK/Logistyka kierujemy
                 zapytanie do KD. Jedna próba max.
+              </li>
+              <li>
+                Wiadomość mailowa - Gdy nie uda nam się połączyć do KD, piszemy
+                maila do sklepu
+              </li>
+            </ol>
+            <h4 style={{ color: "#0078d7" }}>KD (Kierownik Dyżurny)</h4>
+            <ol>
+              <li>
+                KD - max. Trzy próby połączenia
               </li>
               <li>
                 Wiadomość mailowa - Gdy nie uda nam się połączyć do KD, piszemy
